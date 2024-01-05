@@ -380,16 +380,23 @@ a {
 .feedback {
   background: #2e2100;
 }
+.feedback .item {
+  display: flex;
+}
 
 .feeback-content {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  flex-shrink: 0;
   padding: 96px 0;
 }
 
-.feedback .customer {
-  margin-right: 271px;
-  white-space: nowrap;
+.feedback .ava {
+  background-color: #ebeaff;
+  width: 72px;
+  height: 72px;
+  clip-path: circle();
+  object-fit: cover;
 }
 
 .feedback .name {
@@ -420,20 +427,14 @@ a {
 }
 
 .feedback .reviews {
-  position: relative;
+  /* position: relative; */
+  width: 66%;
+  margin-left: 235px;
+}
+
+.feedback blockquote {
   color: #fff;
   font-size: 2.6rem;
   font-style: italic;
   line-height: 1.54; /* 153.846% */
-}
-
-.feedback .reviews img {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.feedback .reviews p {
-  margin-top: 30px;
-  margin-left: 28px;
 }
