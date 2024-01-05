@@ -372,15 +372,19 @@ a {
   justify-content: space-between;
 }
 
+.popular .cta .btn {
+  cursor: pointer;
+}
+
 /* ============ Feedback =========== */
+.feedback {
+  background: #2e2100;
+}
 
 .feeback-content {
   display: flex;
-  min-width: 1440px;
-  min-height: 380px;
-  background: #2e2100;
   align-items: center;
-  padding: 96px 135px;
+  padding: 96px 0;
 }
 
 .feedback .customer {
