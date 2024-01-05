@@ -29,26 +29,34 @@
         <div class="header-body">
           <!-- logo -->
           <img src="./asset/img/Lesson_logo.svg" alt="logo" />
+
           <!-- navigation -->
           <nav class="nav">
             <ul>
               <li class="active">
-                <a href="#!">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a href="#!">Courses</a>
+                <a href="#course">Courses</a>
               </li>
               <li>
-                <a href="#!">Pricing</a>
+                <a href="#pricing">Pricing</a>
               </li>
               <li>
-                <a href="#!">Reviews</a>
+                <a href="#feedback">Reviews</a>
               </li>
             </ul>
           </nav>
+
           <!-- btn-action -->
           <div class="action">
-            <a href="#!" class="btn btn-sign-up"> Sign Up </a>
+            <a
+              href="https://www.google.com/aclk?sa=l&ai=DChcSEwitma27nceDAxXtqGYCHSOqBxIYABAAGgJzbQ&ae=2&gclid=CjwKCAiA7t6sBhAiEiwAsaieYj6huYaQgH3IU-hfQ_5HXgvUaoKV99IoYLoP4Lijso9CQ_55vTl-RxoCCL0QAvD_BwE&sig=AOD64_1W1j5VemVHWSgbZUxNpt6ztI84SA&q&adurl&ved=2ahUKEwjyyqi7nceDAxWo4jgGHcBBDxQQ0Qx6BAgJEAE"
+              target="_blank"
+              class="btn btn-sign-up"
+            >
+              Sign Up
+            </a>
           </div>
         </div>
       </div>
@@ -57,7 +65,7 @@
     <!-- main -->
     <main class="main">
       <!-- Hero -->
-      <div class="hero">
+      <div class="hero" id="home">
         <div class="main-content">
           <div class="body">
             <!-- hero left -->
@@ -127,7 +135,7 @@
       </div>
 
       <!-- Popular -->
-      <div class="popular">
+      <div class="popular" id="pricing">
         <div class="main-content">
           <div class="body">
             <!-- Intro -->
@@ -156,13 +164,40 @@
                 <img src="./asset/img/drawing.jpg" alt="drawing" />
                 <div class="item-content">
                   <div class="title">
-                    <p>Basic web design</p>
+                    <p class="line-clamp">
+                      Basic web design Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Culpa ipsam ullam vitae illum excepturi
+                      nobis, cum rerum ducimus quae quidem sapiente, earum
+                      assumenda autem explicabo minima, commodi quia sequi
+                      veniam. Doloribus eaque dignissimos officiis asperiores
+                      voluptas fuga, ratione maxime placeat qui quidem adipisci
+                      fugit tenetur a laudantium soluta amet atque reiciendis
+                      saepe neque molestias rerum cupiditate numquam eveniet
+                      necessitatibus? Aliquid. Facere sequi optio laudantium
+                      numquam id saepe ab a, nam inventore quo consequatur
+                      recusandae doloribus porro, rem non blanditiis qui fugit
+                      deleniti! Aspernatur hic quis quasi, distinctio officia ex
+                      amet!
+                    </p>
                     <span> <i class="fa-solid fa-star"></i> 4.5</span>
                   </div>
-                  <div class="summary">
-                    <p>
+                  <div class="summary line-clamp line-2">
+                    <p class=".line-clamp.line-2">
                       Get the best course, gain knowledge and shine for your
-                      future career.
+                      future career. Lorem ipsum dolor sit amet consectetur,
+                      adipisicing elit. Quisquam repellat sapiente veniam,
+                      quidem magnam nemo fugiat! Voluptates, esse quos sapiente
+                      voluptate consectetur rem consequatur mollitia!
+                      Reprehenderit dolorem nisi in mollitia? Totam odio quia,
+                      praesentium ea dolorem commodi, omnis alias sed numquam
+                      blanditiis et natus, quidem cum tempore sit? Facilis, rem
+                      quidem architecto eius maiores eligendi ea laudantium
+                      corrupti molestiae voluptate? Dolorum doloribus id
+                      molestias necessitatibus quia asperiores voluptatum labore
+                      vero consequatur quam suscipit quasi molestiae earum
+                      exercitationem, nulla perspiciatis nemo dolor, maiores
+                      libero sit atque quidem, consectetur architecto. Dolores,
+                      neque!
                     </p>
                   </div>
                   <div class="cta">
@@ -173,6 +208,7 @@
               </div>
 
               <!-- Item2 -->
+
               <div class="item">
                 <img src="./asset/img/writing.jpg" alt="writing" />
                 <div class="item-content">
@@ -219,95 +255,203 @@
       </div>
 
       <!-- Feedback -->
-      <div class="feedback">
+      <div class="feedback" id="feedback">
         <div class="main-content">
-          <div class="item">
-            <!-- item 1 -->
-            <div class="feeback-content">
-              <!-- left box -->
-              <div class="customer box">
-                <div class="ava">
-                  <img src="./asset/img/ava.png" alt="customer-ava" />
-                </div>
-                <h1 class="name">Peter Moor</h1>
-                <h2 class="carrer">Student of Web Design</h2>
-                <div class="carousel">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                </div>
-              </div>
-
-              <!-- right box -->
-              <div class="reviews box">
-                <img src="./asset/icons/quot.svg" alt="quot" />
-                <blockquote>
-                  Not only does my resume look impressive—filled with the names
-                  and logos of world-class institutions—but these certificates
-                  also bring me closer to my career goals by validating the
-                  skills I've learned."
-                </blockquote>
+          <div class="feedback-items">
+            <!-- Left info -->
+            <div class="info">
+              <img src="./asset/img/ava1.jpg" alt="user1" />
+              <p class="name">Peter Moor</p>
+              <p class="job">Student of Web Design</p>
+              <div class="dots">
+                <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-circle"></i>
               </div>
             </div>
 
-            <!-- item 2 -->
-            <div class="feeback-content">
-              <!-- left box -->
-              <div class="customer box">
-                <div class="ava">
-                  <img src="./asset/img/ava.png" alt="customer-ava" />
-                </div>
-                <h1 class="name">Peter Moor</h1>
-                <h2 class="carrer">Student of Web Design</h2>
-                <div class="carousel">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                </div>
-              </div>
+            <!-- Right info -->
+            <div class="review">
+              <img src="./asset/icons/quot.svg" alt="quote" />
+              <blockquote>
+                Not only does my resume look impressive—filled with the names
+                and logos of world-class institutions—but these certificates
+                also bring me closer to my career goals by validating the skills
+                I've learned."
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
 
-              <!-- right box -->
-              <div class="reviews box">
-                <img src="./asset/icons/quot.svg" alt="quot" />
-                <blockquote>
-                  Not only does my resume look impressive—filled with the names
-                  and logos of world-class institutions—but these certificates
-                  also bring me closer to my career goals by validating the
-                  skills I've learned."
-                </blockquote>
-              </div>
+      <!-- Feature -->
+      <div class="feature" id="course">
+        <div class="main-content">
+          <div class="feature-items">
+            <!-- Picture Box-->
+            <div class="pic-box">
+              <img src="./asset/img/feature1.jpg" alt="feature-picture" />
+              <img src="./asset/img/feature2.jpg" alt="feature-picture" />
             </div>
 
-            <!-- item 3 -->
-            <div class="feeback-content">
-              <!-- left box -->
-              <div class="customer box">
-                <div class="ava">
-                  <img src="./asset/img/ava.png" alt="customer-ava" />
-                </div>
-                <h1 class="name">Peter Moor</h1>
-                <h2 class="carrer">Student of Web Design</h2>
-                <div class="carousel">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                </div>
-              </div>
-
-              <!-- right box -->
-              <div class="reviews box">
-                <img src="./asset/icons/quot.svg" alt="quot" />
-                <blockquote>
-                  Not only does my resume look impressive—filled with the names
-                  and logos of world-class institutions—but these certificates
-                  also bring me closer to my career goals by validating the
-                  skills I've learned."
-                </blockquote>
+            <!-- Text-Box -->
+            <div class="text-box">
+              <div class="text-box-content">
+                <h2 class="title header-title">
+                  Learner outcomes through our awesome platform
+                </h2>
+                <h3 class="para body-para">
+                  87% of people learning for professional development report
+                  career benefits like getting a promotion, a raise, or starting
+                  a new career.
+                </h3>
+                <h3 class="ref body-para">Lesson Impact Report (2022)</h3>
+                <button class="btn">Sign Up</button>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Feature2 -->
+      <div class="feature2">
+        <div class="main-content">
+          <div class="feature2-items">
+            <!-- Text Box -->
+            <div class="text-box">
+              <h2 class="title header-title">
+                Take the next step toward your personal and professional goals
+                with Lesson.
+              </h2>
+              <h3 class="para body-para">
+                Take the next step toward your personal and professional goals
+                with Lesson.
+              </h3>
+              <button class="btn">Join Now</button>
+            </div>
+
+            <!-- Picture Box -->
+            <div class="pic-box">
+              <img src="./asset/img/feature2.2.jpg" alt="feature2-picture" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog -->
+      <div class="blog">
+        <div class="main-content">
+          <div class="blog-items">
+            <!-- Blog Heading -->
+            <div class="blog-heading">
+              <h2 class="header-title">Our blog</h2>
+              <h3 class="body-para">
+                Read our regular travel blog and know the latest update of tour
+                and travel
+              </h3>
+            </div>
+
+            <!-- Blog News -->
+            <div class="blog-news-content">
+              <!-- News1 -->
+              <div class="news-box">
+                <img src="./asset/img/Blog1.jpg" alt="blog-1" />
+                <div class="news-info">
+                  <h2 class="date">
+                    <i class="fa-solid fa-circle"></i> 21 November 2021
+                  </h2>
+                  <h2 class="news-title">
+                    How to become a pro web designer in 2022 and get remot job?
+                  </h2>
+                  <button class="btn">Read More</button>
+                </div>
+              </div>
+
+              <!-- News2 -->
+              <div class="news-box">
+                <img src="./asset/img/blog2.jpg" alt="blog-2" />
+                <div class="news-info">
+                  <h2 class="date">
+                    <i class="fa-solid fa-circle"></i> 21 November 2021
+                  </h2>
+                  <h2 class="news-title">
+                    How to become a pro web designer in 2022 and get remot job?
+                  </h2>
+                  <button class="btn">Read More</button>
+                </div>
+              </div>
+
+              <!-- News3-->
+              <div class="news-box">
+                <img src="./asset/img/blog3.jpg" alt="blog-3" />
+                <div class="news-info">
+                  <h2 class="date">
+                    <i class="fa-solid fa-circle"></i> 21 November 2021
+                  </h2>
+                  <h2 class="news-title">
+                    How to become a pro web designer in 2022 and get remot job?
+                  </h2>
+                  <button class="btn">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 Dots -->
+            <div class="dots">
+              <i class="fa-solid fa-circle"></i>
+              <i class="fa-solid fa-circle"></i>
+              <i class="fa-solid fa-circle"></i>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="main-content">
+        <div class="footer-content">
+          <div class="column1">
+            <img src="./asset/icons/lesson.svg" alt="logo" />
+            <h2 class="footer-sub-title">
+              Need to help for your dream Career? trust us. With Lesson, study
+              becomes a lot easier with us.
+            </h2>
+            <div class="social-media-link">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+          <div class="column2 column">
+            <h2 class="footer-header-title">Company</h2>
+            <h3 class="footer-sub-title">About Us</h3>
+            <h3 class="footer-sub-title">Features</h3>
+            <h3 class="footer-sub-title">Our Pricing</h3>
+            <h3 class="footer-sub-title">Latest News</h3>
+          </div>
+          <div class="column2 column">
+            <h2 class="footer-header-title">Support</h2>
+            <h3 class="footer-sub-title">FAQ’s</h3>
+            <h3 class="footer-sub-title">Terms & Conditions</h3>
+            <h3 class="footer-sub-title">Privacy Policy</h3>
+            <h3 class="footer-sub-title">Contact Us</h3>
+          </div>
+          <div class="column2 column final">
+            <h2 class="footer-header-title">Address</h2>
+            <h3 class="footer-sub-title">
+              <span>Location:</span> 27 Division St, New York, NY 10002, USA
+            </h3>
+            <h3 class="footer-sub-title">
+              <span>Email:</span> email@gmail.com
+            </h3>
+            <h3 class="footer-sub-title">
+              <span>Phone:</span> + 000 1234 567 890
+            </h3>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
