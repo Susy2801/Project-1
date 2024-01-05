@@ -16,6 +16,7 @@ body {
 }
 
 /* ===========common===========*/
+
 a {
   text-decoration: none;
 }
@@ -422,9 +423,6 @@ a {
   width: 72px;
   height: 72px;
   border-radius: 50%;
-  padding: 6px;
-  background-color: #b145f0;
-  border: 3px solid rgb(32, 4, 77);
 }
 
 .feedback .name {
